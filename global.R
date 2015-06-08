@@ -54,3 +54,5 @@ return(scr_c)
 
 
 # 
+# library(shinyapps)
+# deployApp()
