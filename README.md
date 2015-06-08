@@ -9,16 +9,15 @@ You can try the app live at: [https://benmarwick.shinyapps.io/ros_badge](benmarw
 You can run the app locally (after installing [RStudio](http://www.rstudio.com/products/RStudio/)) by using the following commands.
 
 ```R
-# only need to do this once, assming your don't already have the shiny package
+# only need to do this once, assuming your don't already have the shiny package
 install.packages("shiny")
 # now download & run the badges application, it will prompt you to install packages if you don't already have them (googlesheets, dplyr, rvest, RCurl, etc.)
-shiny::runGitHub('ros_badge', 'benmarwick')
+shiny::runGitHub('ros_badges', 'benmarwick')
 ```
 
 Here's a screenshot of the app:
 
 ![app screenshot](figures/screenshot.png)
-
 
 More details are the reproducible research badging program can be found on these pages:
 
@@ -32,4 +31,4 @@ More details about the UW eScience Reproducibility and Open Science Group can be
 - http://uwescience.github.io/reproducible/
 - http://uwescience.github.io/reproducible/guidelines.html
 
-This app was developed with help from [Steven Roberts](https://github.com/sr320) during the [2015 Mozilla Science Lab Sprint](https://www.mozillascience.org/global-sprint-2015) at the [UW eScience Data Science Studio](http://escience.washington.edu/dss).
+This app was developed with help from [Steven Roberts](https://github.com/sr320) during the [2015 Mozilla Science Lab Sprint](https://www.mozillascience.org/global-sprint-2015) at the [UW eScience Data Science Studio](http://escience.washington.edu/dss). There are still a few row mismatches in the lower table, so it's not perfect yet, but it's a good proof of concept for increasing the visibility of reproducible research. 
